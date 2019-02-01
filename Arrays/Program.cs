@@ -10,6 +10,11 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+            var pgm = new ArrayOfInteger();
+            pgm.Add(0, 42);
+            pgm.Add(1, 25);
+            pgm.Add(2, 97);
+            pgm.Print();
         }
     }
 }

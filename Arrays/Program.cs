@@ -17,7 +17,24 @@ namespace Arrays
             //pgm.Print();
 
             var laten = new LookAtEachNumber();
-            laten.CheckNumbers();
+            //laten.CheckNumbers();
+            //laten.BowlingGameScore();
+            //laten.Grades();
+            //laten.RandomNumber();
+            //laten.Squares();
+            laten.TotalSales();
+
+            /*
+            for (var row = 0; rpw < 3; row++)
+            {
+                for (int col = 0; col < 3; col++)
+                {
+                    Console.WriteLine($"Row, Col is {row}/{col} value is {ints[row, col]}");
+                }
+            }
+            */
         }
     }
 }
+   
+    
